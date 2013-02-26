@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF2FE79516D99367004DBF9D /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2FE79416D99367004DBF9D /* GoogleMaps.framework */; };
+		BF2FE79816D99399004DBF9D /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BF2FE79716D99399004DBF9D /* GoogleMaps.bundle */; };
+		BF2FE79A16D99416004DBF9D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2FE79916D99416004DBF9D /* AVFoundation.framework */; };
+		BF2FE79C16D9941C004DBF9D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2FE79B16D9941C004DBF9D /* CoreData.framework */; };
+		BF2FE79E16D9942A004DBF9D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2FE79D16D9942A004DBF9D /* CoreText.framework */; };
+		BF2FE7A016D99437004DBF9D /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2FE79F16D99437004DBF9D /* GLKit.framework */; };
+		BF2FE7A216D99440004DBF9D /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2FE7A116D99440004DBF9D /* ImageIO.framework */; };
+		BF2FE7A416D99466004DBF9D /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2FE7A316D99466004DBF9D /* libicucore.dylib */; };
+		BF2FE7A616D99477004DBF9D /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2FE7A516D99477004DBF9D /* libstdc++.dylib */; };
+		BF2FE7A816D99480004DBF9D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2FE7A716D99480004DBF9D /* libz.dylib */; };
+		BF2FE7AA16D9948E004DBF9D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2FE7A916D9948E004DBF9D /* OpenGLES.framework */; };
+		BF2FE7AC16D99498004DBF9D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2FE7AB16D99498004DBF9D /* QuartzCore.framework */; };
+		BF2FE7AE16D994A4004DBF9D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2FE7AD16D994A4004DBF9D /* SystemConfiguration.framework */; };
+		BFE7AB6C16D96E0A0028D88D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE7AB6B16D96E0A0028D88D /* UIKit.framework */; };
+		BFE7AB6E16D96E0A0028D88D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE7AB6D16D96E0A0028D88D /* Foundation.framework */; };
+		BFE7AB7016D96E0A0028D88D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE7AB6F16D96E0A0028D88D /* CoreGraphics.framework */; };
+		BFE7AB7616D96E0A0028D88D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFE7AB7416D96E0A0028D88D /* InfoPlist.strings */; };
+		BFE7AB7816D96E0A0028D88D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE7AB7716D96E0A0028D88D /* main.m */; };
+		BFE7AB7C16D96E0A0028D88D /* hidefmapappAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE7AB7B16D96E0A0028D88D /* hidefmapappAppDelegate.m */; };
+		BFE7AB7E16D96E0A0028D88D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BFE7AB7D16D96E0A0028D88D /* Default.png */; };
+		BFE7AB8016D96E0A0028D88D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFE7AB7F16D96E0A0028D88D /* Default@2x.png */; };
+		BFE7AB8216D96E0A0028D88D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFE7AB8116D96E0A0028D88D /* Default-568h@2x.png */; };
+		BFE7AB8516D96E0A0028D88D /* hidefmapappViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE7AB8416D96E0A0028D88D /* hidefmapappViewController.m */; };
+		BFE7AB8816D96E0A0028D88D /* hidefmapappViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFE7AB8616D96E0A0028D88D /* hidefmapappViewController.xib */; };
+		BFE7AB8F16D96E720028D88D /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE7AB8E16D96E720028D88D /* FacebookSDK.framework */; };
+		BFE7AB9116D96F120028D88D /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BFE7AB9016D96F120028D88D /* FacebookSDKResources.bundle */; };
+		BFE7AB9316D96F1F0028D88D /* FBUserSettingsViewResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BFE7AB9216D96F1F0028D88D /* FBUserSettingsViewResources.bundle */; };
+		BFE7AB9516D96F9A0028D88D /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE7AB9416D96F9A0028D88D /* Accounts.framework */; };
+		BFE7AB9716D96F9F0028D88D /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE7AB9616D96F9F0028D88D /* AdSupport.framework */; };
+		BFE7AB9916D96FAE0028D88D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE7AB9816D96FAE0028D88D /* Social.framework */; };
+		BFE7AB9B16D976FA0028D88D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE7AB9A16D976FA0028D88D /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF2FE79416D99367004DBF9D /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		BF2FE79716D99399004DBF9D /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		BF2FE79916D99416004DBF9D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BF2FE79B16D9941C004DBF9D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BF2FE79D16D9942A004DBF9D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		BF2FE79F16D99437004DBF9D /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		BF2FE7A116D99440004DBF9D /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		BF2FE7A316D99466004DBF9D /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		BF2FE7A516D99477004DBF9D /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		BF2FE7A716D99480004DBF9D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		BF2FE7A916D9948E004DBF9D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		BF2FE7AB16D99498004DBF9D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BF2FE7AD16D994A4004DBF9D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BFE7AB6716D96E0A0028D88D /* hidefmapapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hidefmapapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE7AB6B16D96E0A0028D88D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BFE7AB6D16D96E0A0028D88D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BFE7AB6F16D96E0A0028D88D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BFE7AB7316D96E0A0028D88D /* hidefmapapp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hidefmapapp-Info.plist"; sourceTree = "<group>"; };
+		BFE7AB7516D96E0A0028D88D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFE7AB7716D96E0A0028D88D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFE7AB7916D96E0A0028D88D /* hidefmapapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hidefmapapp-Prefix.pch"; sourceTree = "<group>"; };
+		BFE7AB7A16D96E0A0028D88D /* hidefmapappAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hidefmapappAppDelegate.h; sourceTree = "<group>"; };
+		BFE7AB7B16D96E0A0028D88D /* hidefmapappAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hidefmapappAppDelegate.m; sourceTree = "<group>"; };
+		BFE7AB7D16D96E0A0028D88D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BFE7AB7F16D96E0A0028D88D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BFE7AB8116D96E0A0028D88D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BFE7AB8316D96E0A0028D88D /* hidefmapappViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hidefmapappViewController.h; sourceTree = "<group>"; };
+		BFE7AB8416D96E0A0028D88D /* hidefmapappViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hidefmapappViewController.m; sourceTree = "<group>"; };
+		BFE7AB8716D96E0A0028D88D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/hidefmapappViewController.xib; sourceTree = "<group>"; };
+		BFE7AB8E16D96E720028D88D /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../SDK/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		BFE7AB9016D96F120028D88D /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKResources.bundle; path = ../../SDK/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FacebookSDKResources.bundle; sourceTree = "<group>"; };
+		BFE7AB9216D96F1F0028D88D /* FBUserSettingsViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FBUserSettingsViewResources.bundle; path = ../../SDK/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FBUserSettingsViewResources.bundle; sourceTree = "<group>"; };
+		BFE7AB9416D96F9A0028D88D /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		BFE7AB9616D96F9F0028D88D /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		BFE7AB9816D96FAE0028D88D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		BFE7AB9A16D976FA0028D88D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFE7AB6416D96E0A0028D88D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2FE7AE16D994A4004DBF9D /* SystemConfiguration.framework in Frameworks */,
+				BF2FE7AC16D99498004DBF9D /* QuartzCore.framework in Frameworks */,
+				BF2FE7AA16D9948E004DBF9D /* OpenGLES.framework in Frameworks */,
+				BF2FE7A816D99480004DBF9D /* libz.dylib in Frameworks */,
+				BF2FE7A616D99477004DBF9D /* libstdc++.dylib in Frameworks */,
+				BF2FE7A416D99466004DBF9D /* libicucore.dylib in Frameworks */,
+				BF2FE7A216D99440004DBF9D /* ImageIO.framework in Frameworks */,
+				BF2FE7A016D99437004DBF9D /* GLKit.framework in Frameworks */,
+				BF2FE79E16D9942A004DBF9D /* CoreText.framework in Frameworks */,
+				BF2FE79C16D9941C004DBF9D /* CoreData.framework in Frameworks */,
+				BF2FE79A16D99416004DBF9D /* AVFoundation.framework in Frameworks */,
+				BFE7AB9B16D976FA0028D88D /* CoreLocation.framework in Frameworks */,
+				BFE7AB9916D96FAE0028D88D /* Social.framework in Frameworks */,
+				BFE7AB9716D96F9F0028D88D /* AdSupport.framework in Frameworks */,
+				BFE7AB9516D96F9A0028D88D /* Accounts.framework in Frameworks */,
+				BFE7AB6C16D96E0A0028D88D /* UIKit.framework in Frameworks */,
+				BFE7AB6E16D96E0A0028D88D /* Foundation.framework in Frameworks */,
+				BFE7AB7016D96E0A0028D88D /* CoreGraphics.framework in Frameworks */,
+				BFE7AB8F16D96E720028D88D /* FacebookSDK.framework in Frameworks */,
+				BF2FE79516D99367004DBF9D /* GoogleMaps.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFE7AB5C16D96E0A0028D88D = {
+			isa = PBXGroup;
+			children = (
+				BFE7AB7116D96E0A0028D88D /* hidefmapapp */,
+				BFE7AB6A16D96E0A0028D88D /* Frameworks */,
+				BFE7AB6816D96E0A0028D88D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFE7AB6816D96E0A0028D88D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFE7AB6716D96E0A0028D88D /* hidefmapapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFE7AB6A16D96E0A0028D88D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF2FE79D16D9942A004DBF9D /* CoreText.framework */,
+				BF2FE7A516D99477004DBF9D /* libstdc++.dylib */,
+				BF2FE79916D99416004DBF9D /* AVFoundation.framework */,
+				BF2FE79B16D9941C004DBF9D /* CoreData.framework */,
+				BF2FE79F16D99437004DBF9D /* GLKit.framework */,
+				BF2FE7A116D99440004DBF9D /* ImageIO.framework */,
+				BF2FE7A316D99466004DBF9D /* libicucore.dylib */,
+				BF2FE7A716D99480004DBF9D /* libz.dylib */,
+				BF2FE7A916D9948E004DBF9D /* OpenGLES.framework */,
+				BF2FE7AB16D99498004DBF9D /* QuartzCore.framework */,
+				BF2FE7AD16D994A4004DBF9D /* SystemConfiguration.framework */,
+				BF2FE79716D99399004DBF9D /* GoogleMaps.bundle */,
+				BF2FE79416D99367004DBF9D /* GoogleMaps.framework */,
+				BFE7AB9A16D976FA0028D88D /* CoreLocation.framework */,
+				BFE7AB9416D96F9A0028D88D /* Accounts.framework */,
+				BFE7AB9816D96FAE0028D88D /* Social.framework */,
+				BFE7AB9616D96F9F0028D88D /* AdSupport.framework */,
+				BFE7AB9216D96F1F0028D88D /* FBUserSettingsViewResources.bundle */,
+				BFE7AB9016D96F120028D88D /* FacebookSDKResources.bundle */,
+				BFE7AB8E16D96E720028D88D /* FacebookSDK.framework */,
+				BFE7AB6B16D96E0A0028D88D /* UIKit.framework */,
+				BFE7AB6D16D96E0A0028D88D /* Foundation.framework */,
+				BFE7AB6F16D96E0A0028D88D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFE7AB7116D96E0A0028D88D /* hidefmapapp */ = {
+			isa = PBXGroup;
+			children = (
+				BFE7AB7A16D96E0A0028D88D /* hidefmapappAppDelegate.h */,
+				BFE7AB7B16D96E0A0028D88D /* hidefmapappAppDelegate.m */,
+				BFE7AB8316D96E0A0028D88D /* hidefmapappViewController.h */,
+				BFE7AB8416D96E0A0028D88D /* hidefmapappViewController.m */,
+				BFE7AB8616D96E0A0028D88D /* hidefmapappViewController.xib */,
+				BFE7AB7216D96E0A0028D88D /* Supporting Files */,
+			);
+			path = hidefmapapp;
+			sourceTree = "<group>";
+		};
+		BFE7AB7216D96E0A0028D88D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFE7AB7316D96E0A0028D88D /* hidefmapapp-Info.plist */,
+				BFE7AB7416D96E0A0028D88D /* InfoPlist.strings */,
+				BFE7AB7716D96E0A0028D88D /* main.m */,
+				BFE7AB7916D96E0A0028D88D /* hidefmapapp-Prefix.pch */,
+				BFE7AB7D16D96E0A0028D88D /* Default.png */,
+				BFE7AB7F16D96E0A0028D88D /* Default@2x.png */,
+				BFE7AB8116D96E0A0028D88D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFE7AB6616D96E0A0028D88D /* hidefmapapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE7AB8B16D96E0A0028D88D /* Build configuration list for PBXNativeTarget "hidefmapapp" */;
+			buildPhases = (
+				BFE7AB6316D96E0A0028D88D /* Sources */,
+				BFE7AB6416D96E0A0028D88D /* Frameworks */,
+				BFE7AB6516D96E0A0028D88D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hidefmapapp;
+			productName = hidefmapapp;
+			productReference = BFE7AB6716D96E0A0028D88D /* hidefmapapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFE7AB5E16D96E0A0028D88D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = hidefmapapp;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = mycompany;
+			};
+			buildConfigurationList = BFE7AB6116D96E0A0028D88D /* Build configuration list for PBXProject "hidefmapapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BFE7AB5C16D96E0A0028D88D;
+			productRefGroup = BFE7AB6816D96E0A0028D88D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFE7AB6616D96E0A0028D88D /* hidefmapapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFE7AB6516D96E0A0028D88D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE7AB7616D96E0A0028D88D /* InfoPlist.strings in Resources */,
+				BFE7AB7E16D96E0A0028D88D /* Default.png in Resources */,
+				BFE7AB8016D96E0A0028D88D /* Default@2x.png in Resources */,
+				BFE7AB8216D96E0A0028D88D /* Default-568h@2x.png in Resources */,
+				BFE7AB8816D96E0A0028D88D /* hidefmapappViewController.xib in Resources */,
+				BFE7AB9116D96F120028D88D /* FacebookSDKResources.bundle in Resources */,
+				BFE7AB9316D96F1F0028D88D /* FBUserSettingsViewResources.bundle in Resources */,
+				BF2FE79816D99399004DBF9D /* GoogleMaps.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFE7AB6316D96E0A0028D88D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE7AB7816D96E0A0028D88D /* main.m in Sources */,
+				BFE7AB7C16D96E0A0028D88D /* hidefmapappAppDelegate.m in Sources */,
+				BFE7AB8516D96E0A0028D88D /* hidefmapappViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFE7AB7416D96E0A0028D88D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFE7AB7516D96E0A0028D88D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BFE7AB8616D96E0A0028D88D /* hidefmapappViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFE7AB8716D96E0A0028D88D /* en */,
+			);
+			name = hidefmapappViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFE7AB8916D96E0A0028D88D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFE7AB8A16D96E0A0028D88D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFE7AB8C16D96E0A0028D88D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../SDK/FacebookSDK\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hidefmapapp/hidefmapapp-Prefix.pch";
+				INFOPLIST_FILE = "hidefmapapp/hidefmapapp-Info.plist";
+				OTHER_LDFLAGS = (
+					"-lsqlite3.0",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BFE7AB8D16D96E0A0028D88D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../SDK/FacebookSDK\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hidefmapapp/hidefmapapp-Prefix.pch";
+				INFOPLIST_FILE = "hidefmapapp/hidefmapapp-Info.plist";
+				OTHER_LDFLAGS = (
+					"-lsqlite3.0",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFE7AB6116D96E0A0028D88D /* Build configuration list for PBXProject "hidefmapapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE7AB8916D96E0A0028D88D /* Debug */,
+				BFE7AB8A16D96E0A0028D88D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFE7AB8B16D96E0A0028D88D /* Build configuration list for PBXNativeTarget "hidefmapapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE7AB8C16D96E0A0028D88D /* Debug */,
+				BFE7AB8D16D96E0A0028D88D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFE7AB5E16D96E0A0028D88D /* Project object */;
+}
